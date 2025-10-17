@@ -35,4 +35,5 @@ else:
 
 print(f"total strats: {may_count}")
 
+
 f.close()
