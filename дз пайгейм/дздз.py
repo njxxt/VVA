@@ -56,7 +56,7 @@ class funcmain:
 
     def im_pl(self):
         if self.images:
-            self.chang_im = (self.chang_im + 1) % len(self.images)
+            self.chang_im = (self.chang_im + 1)
 
     def block_cl(self):
 
@@ -176,4 +176,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
